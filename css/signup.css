@@ -1,0 +1,71 @@
+body{
+	background-image: url(../images/wave.png);
+	max-width: 100%
+	margin: 0;
+	padding: 0;
+
+}
+.header{
+	width: 650px;
+    background-color: rgb(65, 96, 232);
+    margin: 40px auto;
+    box-shadow: 0px 0px 10px #1d1161;
+    border-radius: 10px;
+}
+
+.header p{
+	font-size: 45px;
+    text-align: center;
+    padding-top: 40px;
+    margin-bottom: 0;
+    overflow: hidden;
+    color: #3a3737;
+    font-weight: bolder;
+}
+
+.back{   background: #1a359c;
+    margin-left: 80%;
+    margin-top: -77px;
+    border: 2px solid #0d3e92;
+    box-shadow: 1px 0px 8px #133ab1;
+    margin-right: 27px;
+    border-radius: 5px;
+    cursor: pointer;}
+.back a{text-decoration: none;
+    color: white;
+    font-style: normal;
+    text-transform: capitalize;}
+.back a:hover{
+	background:#0f8429;
+	color: #f9fbfa;
+}
+
+.signupone{width: 65%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px
+}
+.signupone form{}
+.signupone form input{
+	width: 100%;
+    padding: 14px;
+    margin-bottom: 10px;
+border-radius: 8px;}
+.signupone form input[type="text"]{
+	width: 49%;
+    display: inline-block;
+}
+.signupone form input[type="text"]:first child{margin-right: 11px;}
+
+.signupone form input[type="submit"]{
+	background:#0a0a77;
+    color: #f7eaea;
+    font-size: 20px;
+    text-transform: uppercase;
+    border: 1px solid #09195f;
+    cursor: pointer;
+}
+.signupone form input:hover[type="submit"]{background:#3d3de2;}
+.signupone form input:hover{
+	background: #b4b6b7;
+}

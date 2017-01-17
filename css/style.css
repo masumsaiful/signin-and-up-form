@@ -1,0 +1,113 @@
+body{
+	margin: 0;
+	padding: 0;
+	display: block;
+	width: 100%;
+	background:#108666 url(../images/wave.png);
+	background-repeat: no-repeat;
+	height: 100vh;
+	background-size: cover;
+
+}
+.header-section{
+	width: 30%;
+    height: 280px;
+    background: rgb(65, 96, 232);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.logo img{display: inline-block;
+    width: 57px;
+    height: 30px;
+    float: left;
+    position: absolute;
+    top: 8%;
+    left: 62%;}
+
+
+.content{
+	position: absolute;
+    top: -1%;
+    left: 23%;
+}
+.content h3{text-transform: uppercase;
+    color: #3a3737;
+    font-size: 24px;
+    font-weight: bolder;}
+
+
+.loginarea{
+	width: 33%;
+    display: inline-block;
+    position: absolute;
+    top: 23%;
+    left: 5%;}
+.loginarea form{}
+.loginarea form input:hover{background:#b4b6b7;}
+.loginarea form input{
+	padding: 6px;
+    width: 353px;
+    margin-bottom: 15px;
+} 
+
+.checkboxa{
+	      display: inline-block;
+    float: left;
+    position: absolute;
+    top: 91%;
+    left: -130%;
+}
+.checkboxa input{}
+.checkboxa label{
+	position: absolute;
+    top: 1%;
+    left: 54%;
+    color: #38352f;
+    text-transform: capitalize;
+    font-size: 16px;}
+
+
+.loginarea a{position: absolute;
+    bottom: -10%;
+    right: -169%;
+    text-decoration: none;
+    color:#b5beea;
+    text-transform: capitalize;}
+
+
+.abc{position: absolute;
+    left: 5%;
+    bottom: 23%;}
+.abc input{
+	   padding: 2px;
+    width: 366px;
+    background:#0a0a77;
+    color: #f7eaea;
+    font-size: 20px;
+    text-transform: uppercase;
+    border: 1px solid #09195f;
+    cursor: pointer;
+}
+.abc input:hover{background:#3d3de2;}
+
+
+.footer{    position: absolute;
+    top: 76%;
+    left: 26%;}
+.footer p{    text-transform: capitalize;
+    color: #ecd8d8;
+    font-family: sans-serif
+
+}
+.footer p a{
+text-decoration: none;
+    color: #0e0eb1;
+    cursor: pointer;
+}
+.footer p a:hover{
+    background:#0f8429;
+    color: #f9fbfa;
+}
